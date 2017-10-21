@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>KML Click Capture Sample</title>
+  </head>
+  <body>
+    <div id="floating-panel">
+       <input id="address" type="textbox" value="Melbourne, VIC">
+       <input id="submit" type="button" value="Geocode">
+     </div>
+    <div id="map"></div>
+    <div id="capture"></div>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjY6Dp-T7ghDR8L-7WXld6C2Oo-1bdEK4&callback=initMap">
+    </script>
+    <script src="main.js"></script>
+
+  </body>
+</html>
